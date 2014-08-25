@@ -99,13 +99,9 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 	.gsri_a {
 		background: url(http://file1.npage.de/010270/19/bilder/micro.gif) no-repeat center!important;
 	}
-	.sbdd_b {
-		background:#282828 !important;
-    border: 1px solid #282828 !important;
-	}
-	.sbsb_d{
-		background:#33B5E5 !important;
-	}
+	.sbsb_a {background:#282828 !important;}
+	.sbdd_b{border: 1px solid #282828 !important;}
+	.sbsb_d{background:#33B5E5 !important;}
 	/*End search*/
 	/*Top Links (Gmail, Pictures Login Button etc)*/
 	#gb_70, #gbqfb, .kpbb {
@@ -180,7 +176,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	.ab_dropdownitem.selected{
 		background: #33B5E5 !important;
 	}
-	#tvcap{
+	#tvcap, #tadsb{
 		display:none !important;
 	}
 	#epb-lm{color: #33B5E5 !important;}
@@ -251,7 +247,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	}
 	/*End of Result List view */
 	/*Search result page Bottom & Footer*/
-	.ads-ad a{color:#33B5E5 !important;}
+	/*.ads-ad a{color:#33B5E5 !important;}*/
 	#brs h3, #brs .brs_col a, #nav a{
 		color:#fff !important;
 	}

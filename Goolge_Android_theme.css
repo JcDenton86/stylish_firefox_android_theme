@@ -1,7 +1,5 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document url-prefix(http://www.google.), url-prefix(https://www.google.), url-prefix(https://encrypted.google.)
 {
 	/*Body */
@@ -33,7 +31,7 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 	/*End Footer */
 	/* Search (Search Bar Search Buttons) */
 	.sbib_a{background:transparent!important;}
-	.gbqfqw{
+	.sbibod, .gbqfqw{
 		background: none repeat scroll 0 0 transparent !important;
     border: 0 none !important;
     border-radius: inherit !important;
@@ -46,7 +44,7 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 		color: rgba(255,255,255,0.8) !important;
 		border-bottom: 1px solid rgba(255, 255, 255, 0.3) !important;
 	}
-	.gbqfqw:after{
+	.sbibod:after, .gbqfqw:after{
 		content:""; 
 		background-color: rgba(255,255,255,0.3) !important; 
 		position: absolute !important; 
@@ -55,7 +53,7 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 		height: 10px !important; 
 		width: 1px !important;
 	}
-	.gbqfqw:before{
+	.sbibod:before, .gbqfqw:before{
 		content:""; 
 		background-color: rgba(255,255,255,0.3) !important; 
 		position: absolute !important; 
@@ -64,10 +62,10 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 		height: 10px !important; 
 		width: 1px !important;
 	}
-	.gbqfqwf{
+	.sbfcn, .gbqfqwf{
 		border-bottom: 1px solid #33B5E5 !important;
 	}
-	.gbqfqwf:after{
+	.sbfcn:after, .gbqfqwf:after{
 		background-color: #33B5E5 !important;
 		content:""; 
 		position: absolute !important; 
@@ -76,7 +74,7 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 		height: 10px !important; 
 		width: 1px !important;
 	}
-	.gbqfqwf:before{
+	.sbfcn:before, .gbqfqwf:before{
 		background-color: #33B5E5 !important;
 		content:""; 
 		position: absolute !important; 
@@ -104,8 +102,12 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 	/*End search*/
 	
 	/*Top Links (Gmail, Pictures Login Button etc)*/
-	#gb_70, #gbqfb {
+	#gb_70, #gbqfb, .kpbb {
 		background: -moz-linear-gradient(center top , #33B5E5, #33B5E5) repeat scroll 0 0 rgba(0, 0, 0, 0);
+		border: 1px solid #33B5E5 !important;
+	}
+	.kpbb:hover{
+		background: #33B5E5 !important;
 		border: 1px solid #33B5E5 !important;
 	}
 	#gbqfb:active:active {
@@ -136,6 +138,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 }
 	/*End Top Links (Gmail, Pictures Login Button etc)*/
 	/*Result page (Spelling, Notes, Right Information)*/
+	.kno-ecr-pt{color: #ecf0f1 !important;}
 	#en_ignored_src{
 		background: none repeat scroll 0 0 #f1c40f !important;;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -143,7 +146,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
     right: 23px !important;
     top: 57px !important;
 	}
-	cite{color: #B6DB49/*#2ecc71*/ !important;}
+	cite{color: #90BE4E/*#2ecc71*/ !important;}
 	._bz{color: #e74c3c !important;}
 	/*End Result page (Spelling, Notes, Right Information)*/
 	
@@ -247,6 +250,6 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	.kp-blk ol li a{
 		color: #33B5E5 !important;
 	}
-	._Et{color: #fff !important;}
+	.fl{color: #fff !important;}
 	/*End Search resutl page Bottom & Footer*/
 }

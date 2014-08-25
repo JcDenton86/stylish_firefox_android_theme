@@ -99,8 +99,14 @@ rgba(000,000,00,0.3) 51%, rgba(000,000,00,0.4) 60%, rgba(000,000,00,0.5) 76%, rg
 	.gsri_a {
 		background: url(http://file1.npage.de/010270/19/bilder/micro.gif) no-repeat center!important;
 	}
+	.sbdd_b {
+		background:#282828 !important;
+    border: 1px solid #282828 !important;
+	}
+	.sbsb_d{
+		background:#33B5E5 !important;
+	}
 	/*End search*/
-	
 	/*Top Links (Gmail, Pictures Login Button etc)*/
 	#gb_70, #gbqfb, .kpbb {
 		background: -moz-linear-gradient(center top , #33B5E5, #33B5E5) repeat scroll 0 0 rgba(0, 0, 0, 0);
@@ -135,7 +141,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	#hdtb_msb .hdtb_mitem.hdtb_msel, #hdtb_msb .hdtb_mitem.hdtb_msel_pre {
     border-bottom: 3px solid #33B5E5 !important;
     color: #33B5E5 !important;
-}
+	}
 	/*End Top Links (Gmail, Pictures Login Button etc)*/
 	/*Result page (Spelling, Notes, Right Information)*/
 	.kno-ecr-pt{color: #ecf0f1 !important;}
@@ -151,6 +157,15 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	/*End Result page (Spelling, Notes, Right Information)*/
 	
 	/*Result List view & Top Navigation*/
+	.gb_Lb{
+		background:#212121  !important;
+	}
+	.gbqfif, .gbqfsf{color:#ecf0f1 !important;}
+	.gb_D{background:#282828 !important;border:1px solid #33B5E5 }
+	.gb_m{border: 1px solid #282828 !important;}
+	.gb_m:hover{background: #33B5E5 !important;}
+	 .gb_r{background:none !important;color:#ecf0f1 !important;}
+	/*.gb_m:hover {background: none !important;}*/
 	#epb-ok {
     background-color: #33B5E5 !important;
     background-image: -moz-linear-gradient(center top , #33B5E5, #33B5E5) !important;
@@ -160,7 +175,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 		background: #282828 !important;
 	}
 	#ab_options li a{
-		color: #fff !important;
+		color: #ecf0f1 !important;
 	}
 	.ab_dropdownitem.selected{
 		background: #33B5E5 !important;

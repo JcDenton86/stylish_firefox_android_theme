@@ -153,6 +153,18 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
     background-image: -moz-linear-gradient(center top , #33B5E5, #33B5E5) !important;
     border: 1px solid #33B5E5 !important;
 	}
+	#ab_options{
+		background: #282828 !important;
+	}
+	#ab_options li a{
+		color: #fff !important;
+	}
+	.ab_dropdownitem.selected{
+		background: #33B5E5 !important;
+	}
+	#tvcap{
+		display:none !important;
+	}
 	#epb-lm{color: #33B5E5 !important;}
 	.med a{color: #33B5E5 !important;}
 	#topstuff a{color:#33B5E5 !important;}

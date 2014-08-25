@@ -135,13 +135,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
     color: #33B5E5 !important;
 }
 	/*End Top Links (Gmail, Pictures Login Button etc)*/
-	/*Result List view & Top Navigation*/
-	#epb-ok {
-    background-color: #33B5E5 !important;
-    background-image: -moz-linear-gradient(center top , #33B5E5, #33B5E5) !important;
-    border: 1px solid #33B5E5 !important;
-	}
-	#epb-lm{color: #33B5E5 !important;}
+	/*Result page (Spelling, Notes, Right Information)*/
 	#en_ignored_src{
 		background: none repeat scroll 0 0 #f1c40f !important;;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
@@ -149,6 +143,17 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
     right: 23px !important;
     top: 57px !important;
 	}
+	cite{color: #B6DB49/*#2ecc71*/ !important;}
+	._bz{color: #e74c3c !important;}
+	/*End Result page (Spelling, Notes, Right Information)*/
+	
+	/*Result List view & Top Navigation*/
+	#epb-ok {
+    background-color: #33B5E5 !important;
+    background-image: -moz-linear-gradient(center top , #33B5E5, #33B5E5) !important;
+    border: 1px solid #33B5E5 !important;
+	}
+	#epb-lm{color: #33B5E5 !important;}
 	.med a{color: #33B5E5 !important;}
 	#topstuff a{color:#33B5E5 !important;}
 	#hdtb_msb > .hdtb_mitem a:active, #hdtb .hdtb_mitem a:active, #hdtb_more:active, .hdtb-mn-hd:active, .mn-hd-txt:active {
@@ -203,10 +208,10 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	#rso .g{
 		padding:1em !important;
 	}
-	
+	._xbb{color:#ecf0f1 !important;}
 	#rso .g:hover{
 		padding:1em !important;
-		background:#34495e !important;
+		background:/*#34495e*/ #22384E !important;
 		border-radius: 2px;
 		-webkit-transition: background 0.2s linear;
     -moz-transition: background 0.2s linear;
@@ -216,6 +221,7 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	}
 	/*End of Result List view */
 	/*Search result page Bottom & Footer*/
+	.ads-ad a{color:#33B5E5 !important;}
 	#brs h3, #brs .brs_col a, #nav a{
 		color:#fff !important;
 	}
@@ -226,5 +232,9 @@ rgba(000,000,00,0.3) 47%, rgba(000,000,00,0.4) 56%, rgba(000,000,00,0.5) 72.3%, 
 	#nav td.cur{color: #33B5E5 !important;}
 	
 	#nav td a:hover{color: #33B5E5 !important;text-decoration: none !important;}
+	.kp-blk ol li a{
+		color: #33B5E5 !important;
+	}
+	._Et{color: #fff !important;}
 	/*End Search resutl page Bottom & Footer*/
 }
